@@ -1,0 +1,15 @@
+@mixin btn-config($btn-color) {
+    transition: .110s;
+    color: darken($color: $btn-color, $amount: 30%);
+    background-color: $btn-color;
+    box-shadow: 0 4px darken($color: $btn-color, $amount: 15%);
+
+    &:hover {
+        background-color: lighten($color: $btn-color, $amount: 15%);
+    }
+
+    &:active {
+        box-shadow: 0 2px lighten($color: $btn-color, $amount: 25%);
+        transform: translateY(2px);
+    }
+}
