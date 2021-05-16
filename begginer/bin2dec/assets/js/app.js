@@ -1,7 +1,7 @@
 new Vue({
     el: '#converter',
     data: {
-        resultado: 0,
+        resultado: '',
         binario: '',
     },
     methods: {
@@ -39,6 +39,6 @@ new Vue({
                 this.resultado = 0
             }
         }
-    },
+    }
 })
 
