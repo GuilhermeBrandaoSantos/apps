@@ -18,7 +18,7 @@
                 <div class="col-sm-12 col-md-12 col-lg-12">
                     <div class="titles text-center mb-4">
                         <h1>Bin to Dec</h1>
-                        <h3>Conversor de Binário para Decimal </h3>
+                        <h3>Conversor de Binário para Decimal</h3>
                     </div>
                 </div>
             </div>
