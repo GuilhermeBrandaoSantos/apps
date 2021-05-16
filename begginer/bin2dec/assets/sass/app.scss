@@ -1,5 +1,6 @@
 @import 'variaveis';
 @import 'mixins';
+@import 'buttons';
 
 * {
     margin: 0;
@@ -13,7 +14,6 @@
 
 #converter {
     display: flex;
-    // justify-content: center;
     flex-direction: column;
     padding: 15px;
     border: 1px solid rgba(0, 0, 0, 0.20);
@@ -42,18 +42,12 @@
     justify-content: center;
 }
 
-.btn-alert{
-    transition: .110s;
-    padding: 10px 40px;
+footer{
+    padding: 10px;
+    text-align: center;
     font-size: 1.3rem;
-    border: none;
-    border-radius: 0.50rem;
-    &.error{
-        background-color: $btnError;
-        @include btn-config($btnError);
-    }
-    &.warning{
-        background-color: $btnWarning;        
-        @include btn-config($btnWarning);
+
+    a{
+        text-decoration: none;
     }
 }
