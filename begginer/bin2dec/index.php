@@ -48,10 +48,11 @@
         </div>
     </main>
     <footer class="footer fixed-bottom">
-        Desenvolvido por <a href="https://www.linkedin.com/in/guilhermebrandaosantos/" target="_blank">Guilherme Brandão</a>
+    <a href="https://www.linkedin.com/in/guilhermebrandaosantos/" target="_blank">Guilherme Brandão <i class="fab fa-linkedin"></i></a> <i class="far fa-copyright"></i> 2021
     </footer>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="assets/js/app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/8579cbdf63.js" crossorigin="anonymous"></script>
 </body>
 </html>
