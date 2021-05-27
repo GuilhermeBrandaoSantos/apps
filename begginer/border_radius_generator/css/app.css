@@ -1,1 +1,2 @@
-/* No CSS *//*# sourceMappingURL=app.css.map */
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Roboto', sans-serif}.generator{margin-top:150px;display:flex;justify-content:space-between}.generator .ranges{display:flex;flex-direction:column}.generator .ranges #range1{align-items:center}input[type="range"]{width:250px}.radius-block{width:50%;height:550px;border:1px solid #000}
+/*# sourceMappingURL=app.css.map */
